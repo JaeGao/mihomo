@@ -15,7 +15,7 @@ body:
           required: true
         - label: "I have searched the [Issue Tracker](……/) for the issue I want to raise."
           required: true
-        - label: "I have tested with the Alpha branch version, and the issue still persists."
+        - label: "I have tested with the latest Alpha branch version, and the issue still persists."
           required: true
         - label: "I have provided server and client configuration files and processes that can reproduce the issue locally, rather than a desensitized complex client configuration file."
           required: true
