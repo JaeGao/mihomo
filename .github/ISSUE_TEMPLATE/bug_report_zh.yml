@@ -41,7 +41,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: 版本
+      label: Mihomo 版本
       description: 提供 `mihomo -v` 命令的输出
     validations:
       required: true
@@ -70,5 +70,5 @@ body:
   - type: textarea
     attributes:
       label: 日志
-      description: 在下方附上 Mihomo Core 的运行日志，`log-level` 使用 DEBUG
+      description: 在下方附上 Mihomo Core 的运行日志，`log-level` 使用 `DEBUG`
       render: shell
