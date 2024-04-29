@@ -1,5 +1,7 @@
 name: 错误反馈
 description: "提交 Mihomo 漏洞"
+title: "[Bug] "
+labels: ["bug"]
 body:
   - type: checkboxes
     id: ensure
