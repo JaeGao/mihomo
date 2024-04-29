@@ -1,4 +1,4 @@
-name: Bug report
+name: Bug report/错误报告
 description: Create a report to help us improve
 title: "[Bug] "
 labels: ["bug"]
@@ -14,31 +14,37 @@ Please verify that you've followed these steps
       options:
         - label: "
 确保你使用的是**本仓库**最新的的 mihomo 或 mihomo Alpha 版本
+
 Ensure you are using the latest version of Mihomo or Mihomo Alpha from **this repository**.
 "
           required: true
         - label: "
 如果你可以自己 debug 并解决的话，提交 PR 吧
+
 Is this something you can **debug and fix**? Send a pull request! Bug fixes and documentation fixes are welcome.
 "
           required: false
         - label: "
 我已经在 [Issue Tracker](……/) 中找过我要提出的问题
+
 I have searched on the [issue tracker](……/) for a related issue.
 "
           required: true
         - label: "
 我已经使用 Alpha 分支版本测试过，问题依旧存在
+
 I have tested using the dev branch, and the issue still exists.
 "
           required: true
         - label: "
 我已经仔细看过 [Documentation](https://wiki.metacubex.one/) 并无法自行解决问题
+
 I have read the [documentation](https://wiki.metacubex.one/) and was unable to solve the issue.
 "
           required: true
         - label: "
 这是 Mihomo 核心的问题，并非我所使用的 Mihomo 衍生版本（如 OpenMihomo、KoolMihomo 等）的特定问题
+
 This is an issue of the Mihomo core *per se*, not to the derivatives of Mihomo, like OpenMihomo or KoolMihomo.
 "
           required: true
